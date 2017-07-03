@@ -1,0 +1,2 @@
+cp nginx.conf hostfiles
+sudo docker run -p 8080:80 -p 1935:1935 -i -t -d -name nginx_rtmp --rm nginx_rtmp
